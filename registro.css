@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.form-registro{
+    width: 400px;
+    height: 530px;
+    background-color:#DD3543;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 8px 10px 30px;
+
+}
+
+.form-registro h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+
+}
+.inputs{
+    width: 100%;
+    background: hwb(356 19% 39%);
+    padding: 9px 0px 9px 9px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 2px solid white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    color: white;
+    
+}
+
+.form-registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    width: 90%;
+    float: right;
+    margin-bottom: 10px;
+    color: white;
+
+}
+.form-registro a{
+    color: white;
+    text-decoration: none;
+}
+
+.boton{
+    width: 100%;
+    border-radius: 5px;
+    background: #DD3543;
+    padding: 10px;
+    color: white;
+    margin: 16px 0px;
+    font-size: 16px;
+    border: 2px solid white;
+}
+.boton:hover{
+    width: 100%;
+    border-radius: 5px;
+    background: hsl(355, 83%, 50%);
+    padding: 10px;
+    color: white;
+    margin: 16px 0px;
+    font-size: 16px;
+    border: 2px solid white;
+
+}
+
+
+.check{
+    margin-top: 10px;
+    margin-left: 20px;
+ }
+
+ .form-inicio{
+    width: 400px;
+    height: auto;
+    background-color:#DD3543;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 8px 10px 30px;
+ }
+
+ .form-inicio p{
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    width: 90%;
+    float: right;
+
+}
+.form-inicio a{
+    color: white;
+    text-decoration: none;
+}
+
+.form-inicio h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.form-completado{
+    width: 400px;
+    height: 150px;
+    background-color:#DD3543;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 8px 10px 30px;
+ }
+
+ .form-completado p{
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+
+}
+.form-completado a{
+    color: white;
+    text-decoration: none;
+}
+
+.form-completado h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
