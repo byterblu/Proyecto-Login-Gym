@@ -3,10 +3,17 @@
     padding: 0;
 }
 
+body{
+ background-image: url(./imagenessuplementos/fondo.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100%;
+}
+
 .form-registro{
     width: 400px;
     height: 530px;
-    background-color:#DD3543;
+    background-color:hsla(221, 57%, 33%, 0.795);
     padding: 30px;
     margin: auto;
     margin-top: 20px;
@@ -25,16 +32,18 @@
 }
 .inputs{
     width: 100%;
-    background: hwb(356 19% 39%);
+    background: rgb(48, 64, 156);
     padding: 9px 0px 9px 9px;
     border-radius: 5px;
     margin-bottom: 16px;
     border: 2px solid white;
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
-    color: white;
-    
+    color: white;    
 }
+
+.inputs::placeholder { 
+    color: #ffffffd5; }
 
 .form-registro p{
     height: 40px;
@@ -54,7 +63,7 @@
 .boton{
     width: 100%;
     border-radius: 5px;
-    background: #DD3543;
+    background: hwb(221 20% 33%);
     padding: 10px;
     color: white;
     margin: 16px 0px;
@@ -64,7 +73,7 @@
 .boton:hover{
     width: 100%;
     border-radius: 5px;
-    background: hsl(355, 83%, 50%);
+    background: hsl(236, 80%, 34%);
     padding: 10px;
     color: white;
     margin: 16px 0px;
@@ -82,7 +91,7 @@
  .form-inicio{
     width: 400px;
     height: auto;
-    background-color:#DD3543;
+    background-color:hsla(221, 57%, 33%, 0.795);
     padding: 30px;
     margin: auto;
     margin-top: 100px;
@@ -114,7 +123,7 @@
 .form-completado{
     width: 400px;
     height: 150px;
-    background-color:#DD3543;
+    background-color:hsla(221, 57%, 33%, 0.795);
     padding: 30px;
     margin: auto;
     margin-top: 100px;
@@ -128,6 +137,7 @@
     text-align: center;
     font-size: 15px;
     width: 100%;
+    color: white;
 
 }
 .form-completado a{
