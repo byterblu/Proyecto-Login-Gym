@@ -6,8 +6,8 @@
 body{
  background-image: url(./imagenessuplementos/fondo.jpg);
  background-repeat: no-repeat;
- background-attachment: fixed;
  background-size: 100%;
+ 
 }
 
 .form-registro{
@@ -49,10 +49,10 @@ body{
 .form-registro .terminos{
     height: 40px;
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
     width: 90%;
     float: right;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     color: white;
     margin-top: 7px;
     
