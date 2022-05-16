@@ -105,6 +105,7 @@ body{
     margin-left: 20px;
  }
 
+
 /** FORMULARIO DE INICIO **/
 
  .form-inicio{
@@ -129,6 +130,17 @@ body{
     margin-bottom: 20px;
     text-align: center;
     color: white;
+}
+
+.form-inicio .terminos{
+    color: white; 
+    margin-left: 10px;
+}
+
+.form-inicio .check{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 25px;
 }
 
 /** FORMULARIO DE REGISTRO COMPLETADO **/
@@ -183,3 +195,9 @@ body{
     font-size: 20px;
     
 }
+
+.terminos a{
+    color: white;
+    font-weight: bold;
+}
+

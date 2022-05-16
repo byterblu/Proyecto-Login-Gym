@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 body{
     background-image: url(./imagenessuplementos/fondo.jpg);
  background-repeat: no-repeat;
@@ -14,8 +16,8 @@ body{
     top: 0;
     width: 100%;
     height: 90px;
-  background: hsl(221, 57%, 33%);
-  font-family: 'Ubuntu', sans-serif;
+    background: hsl(221, 57%, 33%);
+  font-family: 'Libre Baskerville', serif;
   font-size: 15px;
   
 
@@ -28,8 +30,7 @@ body{
 
 #banner{
     width: 100%;
-    padding-top: 85px;
-    height: auto;
+    height: 700px;
  
 }
 #banner img{
@@ -57,7 +58,7 @@ body{
 }
 
 #navprin li:hover{
-    background-color: hsla(221, 57%, 33%, 0.795);
+    background-color: hwb(221 1% 2% / 0.795);
 }
 
 #navprin li a{
@@ -107,13 +108,14 @@ body{
 
 .articleprin{
    
-    width: 315px;
-    margin: 5px 4px 5px 4px;
-    height: 350px;
+    width: 23%;
+    margin: 5px 4px 5px 15px;
+    height: auto;
     display: inline-block;
     border: 1px solid black;
     padding: 4px;
     text-align: center;
+    background-color: white;
    
 }
 
@@ -136,11 +138,31 @@ body{
 }
 
 .textoprincipal{
-    position: relative;
-    width: 100%;
-    bottom: 250px;
-    color: white;
+    
+    
+    color: black;
   
 }
 
+.condiciones{
+    width: 400px;
+    height: auto;
+    background-color:hwb(221 14% 48% / 0.856);
+    padding: 30px 40px 30px 30px;
+    margin: 30px 150px 150px 450px;
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
 
+}
+
+.headerprin-condiciones{
+    top: 0;
+    width: 100%;
+    height: 90px;
+  background: hsl(221, 57%, 33%);
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  
+
+}
