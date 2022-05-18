@@ -41,7 +41,7 @@ body{
 
 #navprin{
     padding: 25px;
-    margin-right: 25px;
+    margin-right: 20px;
     float: right;
 }
 
@@ -53,6 +53,7 @@ body{
     border: 1px solid white;
     padding: 10px;
     margin-left: 10px;
+    font-size: 15px;
     
     
 }
@@ -64,9 +65,30 @@ body{
 #navprin li a{
     color:white;
     text-decoration: none;
-   
-    
+
 }
+
+#navprin li i{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.ocultar{
+    display: none;
+    position: absolute;
+
+}
+
+.ocultar:hover{
+    display: block;
+}
+
+
+
+
+
+
 #footer{
     background: hsl(221, 57%, 33%); 
     text-align: center; 
@@ -145,15 +167,20 @@ body{
 }
 
 .condiciones{
-    width: 400px;
+    width: 500px;
     height: auto;
     background-color:hwb(221 14% 48% / 0.856);
     padding: 30px 40px 30px 30px;
-    margin: 30px 150px 150px 450px;
+    margin: 30px 150px 150px 850px;
     border-radius: 5px;
     font-family: 'Ubuntu', sans-serif;
     color: white;
+    line-height: 25px;
+    word-spacing: 5px;
+}
 
+.condiciones .tamaño{
+    font-size: 25px;
 }
 
 .headerprin-condiciones{
