@@ -167,11 +167,11 @@ body{
 }
 
 .condiciones{
-    width: 500px;
+    width: 30%;
     height: auto;
     background-color:hwb(221 14% 48% / 0.856);
     padding: 30px 40px 30px 30px;
-    margin: 30px 150px 150px 850px;
+    margin: 30px 150px 150px 500px;
     border-radius: 5px;
     font-family: 'Ubuntu', sans-serif;
     color: white;

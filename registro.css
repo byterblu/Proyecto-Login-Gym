@@ -13,7 +13,7 @@ body{
 /** FORMULARIO DE REGISTRO **/
 
 .form-registro{
-    width: 400px;
+    width: 30%;
     height: auto;
     background-color:hwb(221 14% 48% / 0.856);
     padding: 30px 40px 30px 30px;
@@ -109,7 +109,7 @@ body{
 /** FORMULARIO DE INICIO **/
 
  .form-inicio{
-    width: 400px;
+    width: 30%;
     height: auto;
     background-color:hsla(221, 57%, 33%, 0.795);
     padding: 30px 40px 30px 30px;
@@ -146,7 +146,7 @@ body{
 /** FORMULARIO DE REGISTRO COMPLETADO **/
 
 .form-completado{
-    width: 400px;
+    width: 30%;
     height: 150px;
     background-color:hsla(221, 57%, 33%, 0.795);
     padding: 30px;
