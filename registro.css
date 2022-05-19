@@ -116,14 +116,15 @@ body{
 
  .form-inicio{
     width: 30%;
-    height: auto;
-    background-color:hsla(221, 57%, 33%, 0.795);
-    padding: 30px 40px 30px 30px;
+    height: 300px;
+    background-color:hwb(221 14% 48% / 0.856);
+    padding: 20px 30px 20px 20px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 10%;
+    margin-bottom: 10px;
     border-radius: 5px;
     font-family: 'Ubuntu', sans-serif;
-    box-shadow: 8px 10px 30px;
+    box-shadow: 8px 10px 30px
  }
 
 .form-inicio a{
@@ -132,21 +133,25 @@ body{
 }
 
 .form-inicio h2{
-    font-size: 22px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
     text-align: center;
     color: white;
 }
 
 .form-inicio .terminos{
-    color: white; 
-    margin-left: 10px;
+    height: 30px;
+    font-size: 12px;
+    float: left;
+    color: white;
+    margin-top: 15px;
+    margin-left: 50px;
 }
 
 .form-inicio .check{
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 20px;
-    margin-bottom: 25px;
+    position: absolute;
 }
 
 /** FORMULARIO DE REGISTRO COMPLETADO **/
@@ -196,7 +201,9 @@ body{
 }
 .form-inicio .nombre-inputs{
     
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+
     font-family: 'Ubuntu', sans-serif;
     color: white;
     font-size: 20px;
