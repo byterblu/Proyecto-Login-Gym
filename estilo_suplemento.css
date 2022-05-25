@@ -1,0 +1,40 @@
+/*p:first-child{
+    color: red;
+}*/
+
+/*p:nth-child(2){
+    color: blue;
+}*/
+
+/*p:nth-child(2n + 1){
+    color: blue;
+}*/
+
+/*:root{
+    --color-Primario: #cdf7f6;
+    --color-Secundario: #8fb8de;
+    --color-terciario: #9a94bc;
+
+    --fuente-primaria: 30px;
+    --fuente-secundaria: 20px;
+    --fuente-terciaria: 30px;
+}
+
+.titulo{
+    background-color: var(--color-Primario);
+}
+
+.art-1{
+    color: var(--color-Secundario);
+    font-size: var(--fuente-primaria);
+}
+
+.art-2{
+    background-color: var(--color-Secundario);
+    font-size: var(--fuente-primaria);
+}*/
+
+.boton:active{
+    color: red;
+    border: 2px solid red;
+}
