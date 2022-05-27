@@ -38,3 +38,28 @@
     color: red;
     border: 2px solid red;
 }
+
+/*p::first-line{
+    background-color: red;
+    color:white;
+    }
+
+p::first-letter{
+    font-size: xx-large;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}*/
+
+p::before{
+    content: "Hola Buenas";
+    color: green;
+}
+
+p::after{
+    content: "Hola Buenas";
+    color: green;
+}
+
+p::selection{
+    color: aqua;
+}
