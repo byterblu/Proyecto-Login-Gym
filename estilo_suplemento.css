@@ -126,5 +126,15 @@ section{
     background-color: blue;
     border: 1px solid;
 }
+
+/*FLEX GROW
+.container div:nth-child(3){
+    flex-grow: 1;
+}*/
+
+/*FLEX shrink*/
+.container div:nth-child(3){
+    flex-shrink: 1;
+}
  
  
