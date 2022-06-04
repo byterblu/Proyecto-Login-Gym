@@ -1,0 +1,101 @@
+
+html{
+    font-size: 62.5%;
+}
+
+:root{
+    --VeryDarkMagenta: hsl(300, 43%, 22%);
+    --SoftPink: hsl(333, 80%, 67%);
+
+
+    --DarkGrayishMagenta: hsl(303, 10%, 53%);
+    --LightGrayishMagenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+
+    --font-family: 'League Spartan', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+    background-position: top left, bottom right ;
+    background-repeat:  no-repeat;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+/*TEXTO PRINCIPAL*/
+
+.principal{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textoprincipal{
+    width: 40%;
+}
+
+.textoprincipal h1{
+    font-size: 5.5rem;
+}
+
+.textoprincipal p{
+    font-size: 1.9rem;
+}
+
+/*CLASIFICACION*/
+
+.clasificacion{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.estrellas{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--LightGrayishMagenta);
+    border-radius: 10px;
+}
+
+.estrella1{
+    align-self: flex-start;
+}
+
+.estrella2{
+    align-self: center;
+}
+
+.estrella3{
+    align-self: flex-end;
+}
+
+.icon{
+    text-align: left;
+    width: 150px;
+    text-align: center;
+
+
+}
+
+.estrellas p{
+    width: 250px;
+    text-align: center;
+    font-size: 2rem;
+}
